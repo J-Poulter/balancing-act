@@ -1,0 +1,113 @@
+nav {
+  height: 100%;
+  width: 60px;
+  background-color: white;
+  display: inline-block;
+  float: left;
+}
+
+.nav-mid {
+  margin-top: 250px;
+}
+
+.nav-btn {
+  margin: 8px 4px 5px 4px;
+}
+
+body {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.column {
+  height: 100%;
+  width: 46%;
+  display: inline-block;
+  overflow: auto;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-bottom: 25px
+}
+
+#RmvBanner {
+  width: 84%;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin: 50px 20px 30px 20px;
+  border-radius: 5px;
+  padding: 20px 20px 20px 30px;
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  box-shadow: rgba(0,0,0,0.05);
+}
+
+#XB {
+  float:right;
+  background-color:inherit;
+  border: none;
+  font-size: 0.7em;
+  color: gray;
+}
+
+.IEC {
+  display: inline-block;
+  width: 27.5%;
+  height: 90px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.05);
+}
+
+.blueButtons {
+  float: right;
+  background-color: #1CA3BA;
+  color: white;
+  margin-right: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 7px 30px;
+  font-size: 40%;
+}
+
+table {
+  width: 90%;
+  margin-left: 20px;
+  border-spacing: 0 0.7em;
+  box-shadow: rgba(0,0,0,0.05);
+}
+
+tr {
+  background-color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+td {
+  border: white;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+
+}
+
+.t1 {
+  padding-left: 10px;
+}
+
+.tab2 {
+  width: 90%;
+  margin-left: 20px;
+  font-size: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.ColB {
+  background-color: white;
+  margin-top: 100px;
+  padding-top: 10px;
+}
