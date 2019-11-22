@@ -30,8 +30,14 @@ h2 {
   font-size: 28px;
   font-family: sans-serif;
   margin-left: 20px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
 }
+
+#ACC {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 
 #RmvBanner {
   width: 84%;
@@ -55,11 +61,32 @@ h2 {
 .IEC {
   display: inline-block;
   width: 27.5%;
-  height: 90px;
+  /* height: 90px; */
   margin-left: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  /* padding-left: 2px; */
+  /* padding-top: 10px; */
   background-color: white;
-  box-shadow: rgba(0,0,0,0.05);
+  /* box-shadow: rgba(0,0,0,0.05); */
+  /* white-space: pre-wrap; */
+  /* font-size: 12px; */
+}
+
+.IECheading {
+  font-size: 14px;
+  padding-left: 10px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.IECvalue {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 1px;
+  margin-bottom: 30px;
 }
 
 .blueButtons {
@@ -73,21 +100,21 @@ h2 {
   font-size: 40%;
 }
 
-table {
+.FirstTable {
   width: 90%;
   margin-left: 20px;
   border-spacing: 0 0.7em;
   box-shadow: rgba(0,0,0,0.05);
 }
 
-tr {
+.ManageAcc {
   background-color: white;
   font-size: 18px;
   font-family: sans-serif;
   margin-top: 5px;
 }
 
-td {
+.Table1 {
   border: white;
   margin: 10px 0px 10px 0px;
   padding: 5px;
@@ -101,13 +128,42 @@ td {
 .tab2 {
   width: 90%;
   margin-left: 20px;
-  font-size: 8px;
-  padding: 10px;
+  /* font-size: 8px; */
+  /* padding: 10px; */
   background-color: white;
+  /* border-spacing: 1 20px; */
+  border-collapse: collapse;
+
 }
 
 .ColB {
   background-color: white;
   margin-top: 100px;
   padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+
+.tab2 tr {
+  /* border-bottom: 2px solid black; */
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+
+}
+
+.tab2 td {
+  border: 1px solid gray;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+th {
+  border-top: 0px;
+  padding-bottom: 10px;
 }
