@@ -1,9 +1,10 @@
 nav {
-  height: 100%;
+  height: 800px;
   width: 60px;
   background-color: white;
   display: inline-block;
   float: left;
+  box-shadow: rgba(0,0,0,0.05);
 }
 
 .nav-mid {
@@ -12,42 +13,46 @@ nav {
 
 .nav-btn {
   margin: 8px 4px 5px 4px;
+  cursor: pointer;
+}
+
+.turq-highlight {
+  border-left: solid 4px #1CA3BA;
 }
 
 body {
   background-color: #F5F5F5;
   width: 100%;
   font-family: 'Biryani', sans-serif;
-
+  color: #363636;
+  position: relative;
 }
 
 .column {
-  height: 100%;
-  width: 46%;
+  height: 800px;
+  width: 47%;
   display: inline-block;
   overflow: auto;
 }
 
 h2 {
   font-size: 28px;
-  /* font-family: sans-serif; */
   margin-left: 20px;
   margin-bottom: 25px;
 }
 
 #ACC {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
 #RmvBanner {
   width: 84%;
-  /* font-family: sans-serif; */
   font-size: 22px;
-  margin: 50px 20px 30px 20px;
+  margin: 30px 20px 30px 20px;
   border-radius: 5px;
-  padding: 20px 20px 20px 30px;
+  padding: 10px 20px 10px 30px;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   box-shadow: rgba(0,0,0,0.05);
 }
@@ -63,21 +68,15 @@ h2 {
 .IEC {
   display: inline-block;
   width: 27.5%;
-  /* height: 90px; */
   margin-left: 20px;
-  /* margin-bottom: 20px; */
-  /* padding-left: 2px; */
-  /* padding-top: 10px; */
   background-color: white;
-  /* box-shadow: rgba(0,0,0,0.05); */
-  /* white-space: pre-wrap; */
-  /* font-size: 12px; */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.05);
 }
 
 .IECheading {
   font-size: 14px;
   padding-left: 10px;
-  /* font-family: sans-serif; */
   margin-bottom: 10px;
   margin-top: 20px;
 }
@@ -86,9 +85,8 @@ h2 {
   font-size: 20px;
   padding-left: 10px;
   font-weight: bold;
-  /* font-family: sans-serif; */
   margin-top: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .blueButtons {
@@ -100,6 +98,7 @@ h2 {
   border-radius: 20px;
   padding: 7px 30px;
   font-size: 40%;
+  cursor: pointer;
 }
 
 .FirstTable {
@@ -112,15 +111,14 @@ h2 {
 .ManageAcc {
   background-color: white;
   font-size: 18px;
-  /* font-family: sans-serif; */
   margin-top: 5px;
+  box-shadow: rgba(0,0,0,0.05);
 }
 
 .Table1 {
   border: white;
-  margin: 10px 0px 10px 0px;
+  margin: 5px 0px 5px 0px;
   padding: 5px;
-
 }
 
 .t1 {
@@ -130,12 +128,9 @@ h2 {
 .tab2 {
   width: 90%;
   margin-left: 20px;
-  /* font-size: 8px; */
-  /* padding: 10px; */
   background-color: white;
-  /* border-spacing: 1 20px; */
   border-collapse: collapse;
-
+  box-shadow: rgba(0,0,0,0.05);
 }
 
 .ColB {
@@ -143,22 +138,18 @@ h2 {
   margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 30px;
-
 }
 
 .tab2 tr {
-  /* border-bottom: 2px solid black; */
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* font-family: sans-serif; */
-
 }
 
 .tab2 td {
-  border: 1px solid gray;
+  border: 1px solid #cccccc;
   border-left: 0px;
   border-right: 0px;
   padding-top: 12px;
