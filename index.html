@@ -14,12 +14,14 @@
       <img src="assets/elephant.svg" class="nav-btn" width="60px">
 
     <div class="nav-mid">
-      <img src="assets/dashboard.svg" class="nav-btn" width="50px">
-      <img src="assets/transactions.svg" class="nav-btn turq-highlight" width=50px">
+      <img src="assets/dashboard.svg" class="nav-btn turq-highlight" width="50px">
+      <img src="assets/transactions.svg" class="nav-btn" width=50px">
       <img src="assets/profile.svg" class="nav-btn" width=50px">
     </div>
 
     </nav>
+
+<div class="clipboard hideMe">
 
     <section class="column">
 
@@ -133,9 +135,186 @@
         </table>
       </div>
     </section>
-
-    <script src="main.js"></script>
-  </body>
+</div>
 
 
+<div class="transaction-page">
+
+  <section class="columnT guide-rem">
+
+    <h2 class="temp-guide">Transactions
+      <button class="whiteButtons">OUTFLOW</button>
+      <button class="whiteButtons">INFLOW</button>
+      <button class="selectButton">All</button>
+    </h2>
+
+    <div class="tab3box">
+
+    <table class="tab3">
+      <th align="left">Date</th>
+      <th align="left">Account</th>
+      <th align="left">Payee</th>
+      <th align="left">Inflow</th>
+      <th align="left">Outflow</th>
+
+      <tr>
+        <td>10-25-19</td>
+        <td>Credit Card</td>
+        <td>Target</td>
+        <td>-</td>
+        <td>$82.35</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Credit Card</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+      <tr>
+        <td>10-22-19</td>
+        <td>Checking</td>
+        <td>Paycheck</td>
+        <td>$1319.12</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td>10-21-19</td>
+        <td>Credit Card</td>
+        <td>Trader Joe's</td>
+        <td>-</td>
+        <td>$54.92</td>
+      </tr>
+
+      <tr>
+        <td>10-20-19</td>
+        <td>Credit Card</td>
+        <td>Shell</td>
+        <td>-</td>
+        <td>$46.23</td>
+      </tr>
+
+      <tr>
+        <td>10-19-19</td>
+        <td>Savings</td>
+        <td>Rent</td>
+        <td>$800.00</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td>10-19-19</td>
+        <td>Checking</td>
+        <td>Hapa Sushi</td>
+        <td>-</td>
+        <td>$13.97</td>
+      </tr>
+
+      <tr>
+        <td>10-18-19</td>
+        <td>Credit Card</td>
+        <td>PigTrain</td>
+        <td>-</td>
+        <td>$4.83</td>
+      </tr>
+
+      <tr>
+        <td>10-18-19</td>
+        <td>Checking</td>
+        <td>RTD</td>
+        <td>-</td>
+        <td>$6.00</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Checking</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Checking</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Checking</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Checking</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+      <tr>
+        <td>10-24-19</td>
+        <td>Checking</td>
+        <td>Express</td>
+        <td>-</td>
+        <td>$212.24</td>
+      </tr>
+
+    </table>
+  </div>
+  </section>
+
+
+ <section class="guide-rem">
+    <div class="inputs-box">
+   <h2 class="temp-guide ntTitle">New Transaction</h2>
+
+
+
+     <p class="nt-text">Type of Transaction:</p>
+     <select name="T-types" class="ntInputs">
+       <option value="Expense">Expense</option>
+    </select>
+
+    <p class="nt-text">Category:</p>
+    <select name="T-category" class="ntInputs">
+      <option value="" selected disabled hidden>-Select One-</option>
+      <option value="2">2</option>
+    </select>
+
+    <p class="nt-text">Account from:</p>
+      <select name="Acc-from" class="ntInputs">
+        <option value="" selected disabled hidden>-Select One-</option>
+        <option value="Acc2">2</option>
+      </select>
+
+    <p class="nt-text">Payee:</p>
+    <input type="text" class="ntInputs" name="payee">
+
+    <p class="nt-text">Inflow:</p>
+    <input type="text"  class="ntInputs" name="inflow">
+
+    <p class="nt-text">Outflow:</p>
+    <input type="text" class="ntInputs" name="outflow">
+
+    <br><button class="LogButton" display="block">Log Expense</button>
+
+  </div>
+
+
+ </section>
+
+
+</div>
+<script src="main.js"></script>
+</body>
 </html>
