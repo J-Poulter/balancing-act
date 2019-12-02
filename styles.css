@@ -63,6 +63,7 @@ h2 {
   border: none;
   font-size: 0.7em;
   color: gray;
+  cursor: pointer;
 }
 
 .IEC {
